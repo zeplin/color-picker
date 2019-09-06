@@ -50,6 +50,7 @@ final class ColorPickerViewController: NSViewController {
                 } else {
                     scrollView.documentView = tableView
                     tableView.reloadData()
+                    tableView.sizeLastColumnToFit()
                 }
             } else {
                 headerView.isHidden = true

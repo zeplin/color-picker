@@ -91,7 +91,7 @@ final class ColorCell: NSTableCellView {
         stackView.leadingAnchor.constraint(equalTo: leadingAnchor,
                                            constant: ColorCell.stackViewLeftMargin).isActive = true
         stackView.trailingAnchor.constraint(equalTo: trailingAnchor,
-                                            constant: ColorCell.horizontalMargin).isActive = true
+                                            constant: -ColorCell.horizontalMargin).isActive = true
         stackView.topAnchor.constraint(equalTo: topAnchor, constant: ColorCell.stackViewTopMargin).isActive = true
 
         stackView.setViews([nameTextField, representationTextField], in: .top)
