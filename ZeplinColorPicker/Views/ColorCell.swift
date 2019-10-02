@@ -15,13 +15,13 @@ final class ColorCell: NSTableCellView {
     static let height: CGFloat = 43.0
     static let reuseIdentifier = NSUserInterfaceItemIdentifier(rawValue: "ColorCell")
 
-    private static let colorSize = NSSize(width: 25.0, height: 25.0)
+    private static let colorSize = NSSize(width: 27.0, height: 27.0)
     private static let colorCornerRadius: CGFloat = 5.0
     private static let strokeWidth: CGFloat = 2.0
     private static let verticalMargin: CGFloat = (height - colorSize.height) / 2.0
-    private static let horizontalMargin: CGFloat = 11.0
+    private static let horizontalMargin: CGFloat = 10.0
     private static let stackViewTopMargin: CGFloat = 7.0
-    private static let stackViewLeftMargin = horizontalMargin + colorSize.width + 9.0
+    private static let stackViewLeftMargin = horizontalMargin + colorSize.width + 8.0
 
     // MARK: Properties
 
