@@ -29,6 +29,10 @@ final class ColorPicker: NSColorPicker {
     override var minContentSize: NSSize {
         return ColorPicker.minContentSize
     }
+
+    override var buttonToolTip: String {
+        return "Zeplin Color Picker"
+    }
 }
 
 // MARK: NSColorPickingCustom
