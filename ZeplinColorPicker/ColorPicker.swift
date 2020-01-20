@@ -13,6 +13,7 @@ final class ColorPicker: NSColorPicker {
     // MARK: Constants
 
     private static let minContentSize = NSSize(width: 200.0, height: 316.0)
+    private static let iconImageSize = NSSize(width: 24.0, height: 24.0)
 
     // MARK: Properties
 
@@ -22,6 +23,8 @@ final class ColorPicker: NSColorPicker {
 
     override var provideNewButtonImage: NSImage {
         guard let image = Bundle.colorPicker?.image(forResource: "pickerIcon") else { return NSImage() }
+
+        image.size = ColorPicker.iconImageSize
 
         return image
     }
