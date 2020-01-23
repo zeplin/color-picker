@@ -19,7 +19,7 @@
 	<key>CFBundleVersion</key>
 	<string>4</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 Zeplin. All rights reserved.</string>
+	<string>Copyright © 2020 Zeplin. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>ZeplinColorPicker.ColorPicker</string>
 </dict>
