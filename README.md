@@ -17,7 +17,7 @@ rm -rf ~/Library/ColorPickers/ZeplinColorPicker.colorPicker
 cp -R $BUILD_DIR/Debug/ZeplinColorPicker.colorPicker ~/Library/ColorPickers/ZeplinColorPicker.colorPicker
 ```
 
-### Testing
+### Simplify testing locally
 
 To simplify testing the picker, you can create an application using the Script Editor:
 
@@ -35,6 +35,14 @@ Furthermore, you can launch this application automatically by adding a run scrip
 ```sh
 kill `pgrep applet`
 open APPLICATION_PATH
+```
+
+### Uninstall
+
+To uninstall the color picker entirely, you can remove the `ZeplinColorPicker.colorPicker` bundle within the `~/Library/ColorPickers` directory:
+
+```sh
+rm -rf ~/Library/ColorPickers/ZeplinColorPicker.colorPicker
 ```
 
 ## License
